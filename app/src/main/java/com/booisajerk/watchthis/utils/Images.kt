@@ -10,8 +10,6 @@ import androidx.ui.foundation.Clickable
 import androidx.ui.graphics.Color
 import androidx.ui.graphics.vector.DrawVector
 import androidx.ui.layout.Container
-import androidx.ui.layout.Expanded
-import androidx.ui.layout.Height
 import androidx.ui.layout.Size
 import androidx.ui.material.ripple.Ripple
 import androidx.ui.res.vectorResource
@@ -36,20 +34,6 @@ fun VectorImageThumb(
             modifier = modifier wraps Size(106.dp, 106.dp)
         ) {
             DrawVector(vector, tint)
-        }
-    }
-}
-
-@Composable
-fun VectorImageFull(
-    modifier: Modifier = Modifier.None, @DrawableRes id: Int
-) {
-    val vector = +vectorResource(id)
-    WithDensity {
-        Container(
-            modifier = Height(100.dp) wraps Expanded
-        ) {
-            DrawVector(vector)
         }
     }
 }

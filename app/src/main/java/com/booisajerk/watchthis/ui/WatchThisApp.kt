@@ -32,7 +32,7 @@ private fun AppContent() {
 @Preview
 @Composable
 fun preview() {
-    Column() {
+    Column {
         WatchThisApp()
     }
 }
