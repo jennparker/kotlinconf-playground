@@ -47,9 +47,8 @@ So, you can see that components are super easy to write and combine. Another coo
 
 I've written a small sample app here that takes the basic UI elements of a popular movie app I've written in another repo, to see how hard it would be to make a similar layout using Jetpack Compose.  
 
-After building this sample app, here is a list of the coolest stuff about about Jetpack Compose. 
+After building this sample app, here are a few things that struck me as awesome changes that will come with using Jetpack Compose:
 
-<ul>Cool stuff:
     <li>The preview annotation makes iterating on UI super fast</li>
     <li>The learning curve is SO LOW</li>
     <li>Way less time to make a screen's UI</li>
@@ -61,7 +60,9 @@ After building this sample app, here is a list of the coolest stuff about about 
 Sadly, Jetpack Compose is still pre-alpha, so it is a loooooong way off from stable release, but it is coming and it will change how Android UI is built. In the mean time, here are links to the relevant talks from KotlinConf:
 
 [Compose Yourself: Designing a Kotlin First UI Toolkit](https://kotlinconf.com/talks/video/2019/126985/)
+
 [The Compose Rutime, Demystified](https://kotlinconf.com/talks/video/2019/126961/)
+
 [Android Jetpack <3 Kotlin](https://kotlinconf.com/talks/video/2019/129186/)
 
 
@@ -77,9 +78,13 @@ After banging my head against the wall trying to decipher the Rx code woven thro
 It can really be that easy, I've seen it. I must say, as we've slowly been scraping the Rx away and replacing it with coroutines, the resultant file size and readability really is striking.  Yay for coroutines!
 
 Here are the Coroutine-specific talks from the conference:
+
 [Coroutines Case Study: Cleaning up an Async API](https://kotlinconf.com/talks/video/2019/127279/)
+
 [Testing with Coroutines](https://kotlinconf.com/talks/video/2019/116853/)
+
 [Coroutines! Gotta catch 'em all!](https://kotlinconf.com/talks/video/2019/126674/)
+
 [STORE4 - Migrating a library from RxJava to Coroutines](https://kotlinconf.com/talks/video/2019/126904/)
 
 
@@ -87,5 +92,6 @@ Here are the Coroutine-specific talks from the conference:
 [KTOR](https://ktor.io) is a framework for building async servers and clients using Kotlin. Since we're into building mobile apps, our main use for KTOR is as an async HTTP client. This might sound familiar...if it doesn't, you were sleeping through the Coroutines section above. That's right, KTOR uses coroutines extensively!
 
 Here are the conference talks focused on KTOR:
+
 [Ktor for mobile developers: Fear the servers no more](https://kotlinconf.com/talks/video/2019/127025/)
 
