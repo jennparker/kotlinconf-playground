@@ -47,24 +47,45 @@ So, you can see that components are super easy to write and combine. Another coo
 
 I've written a small sample app here that takes the basic UI elements of a popular movie app I've written in another repo, to see how hard it would be to make a similar layout using Jetpack Compose.  
 
+After building this sample app, here is a list of the coolest stuff about about Jetpack Compose. 
+
+<ul>Cool stuff:
+    <li>The preview annotation makes iterating on UI super fast</li>
+    <li>The learning curve is SO LOW</li>
+    <li>Way less time to make a screen's UI</li>
+    <li>Easy to make custom and reusable elements</li>
+    <li>The amount of code needed is incredibly small!</li>
+    <li>Leave your XML at the door</li>
+</ul>
+
 Sadly, Jetpack Compose is still pre-alpha, so it is a loooooong way off from stable release, but it is coming and it will change how Android UI is built. In the mean time, here are links to the relevant talks from KotlinConf:
 
 [Compose Yourself: Designing a Kotlin First UI Toolkit](https://kotlinconf.com/talks/video/2019/126985/)
-
 [The Compose Rutime, Demystified](https://kotlinconf.com/talks/video/2019/126961/)
-
 [Android Jetpack <3 Kotlin](https://kotlinconf.com/talks/video/2019/129186/)
 
 
 #### Other topics
-I'll briefly mention a few other topics learned about at the conference. These are also things I would like to integrate into this sample app in time, but they will come in later slices. 
+Finally, I'll briefly mention a two other topics learned about at the conference.
 
 ##### Coroutines
-//TODO write Coroutines summary
+After banging my head against the wall trying to decipher the Rx code woven throughout our company app, Kotlin Coroutines are like a breath of fresh air. Coroutines are light-weight threads. They make async HTTP calls FUN (ok, maybe not <i>fun</i>, but definitely not horrible). Unlike RxJava, coroutines don't require days of research and mastery of an entirely new language to work with. They're easy to understand and easy to read. The basic steps are:
+1) set the Coroutine's scope
+2) type "l" "a" "u" "n" "c" "h" 
+3) do the thing you're trying to do
+
+It can really be that easy, I've seen it. I must say, as we've slowly been scraping the Rx away and replacing it with coroutines, the resultant file size and readability really is striking.  Yay for coroutines!
+
 Here are the Coroutine-specific talks from the conference:
 [Coroutines Case Study: Cleaning up an Async API](https://kotlinconf.com/talks/video/2019/127279/)
 [Testing with Coroutines](https://kotlinconf.com/talks/video/2019/116853/)
+[Coroutines! Gotta catch 'em all!](https://kotlinconf.com/talks/video/2019/126674/)
+[STORE4 - Migrating a library from RxJava to Coroutines](https://kotlinconf.com/talks/video/2019/126904/)
+
 
 ##### KTOR
-//TODO write KTOR summary
+[KTOR](https://ktor.io) is a framework for building async servers and clients using Kotlin. Since we're into building mobile apps, our main use for KTOR is as an async HTTP client. This might sound familiar...if it doesn't, you were sleeping through the Coroutines section above. That's right, KTOR uses coroutines extensively!
+
 Here are the conference talks focused on KTOR:
+[Ktor for mobile developers: Fear the servers no more](https://kotlinconf.com/talks/video/2019/127025/)
+
