@@ -1,4 +1,4 @@
-package com.booisajerk.watchthis.ui.general
+package com.booisajerk.watchthis.ui.movie
 
 import androidx.compose.Composable
 import androidx.ui.core.dp
@@ -9,6 +9,7 @@ import androidx.ui.layout.Padding
 import com.booisajerk.watchthis.model.Movie
 import com.booisajerk.watchthis.utils.Screen
 import com.booisajerk.watchthis.utils.navigateTo
+
 
 @Composable
 fun MovieList(movies: List<Movie>) {

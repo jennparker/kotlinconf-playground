@@ -31,7 +31,8 @@ val movies = listOf(
         "1975",
         Genre.Drama,
         Language.English
-    ),
+    )
+    ,
     Movie(
         R.drawable.ic_launcher_foreground,
         "It",
@@ -44,7 +45,8 @@ val movies = listOf(
         "2019",
         Genre.Horror,
         Language.Arabic
-    ),
+    )
+    ,
     Movie(
         R.drawable.ic_launcher_foreground,
         "Up",

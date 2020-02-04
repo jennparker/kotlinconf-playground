@@ -1,4 +1,4 @@
-package com.booisajerk.watchthis.ui.general
+package com.booisajerk.watchthis.ui.movie
 
 import androidx.compose.Composable
 import androidx.compose.unaryPlus
