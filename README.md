@@ -47,14 +47,15 @@ So, you can see that components are super easy to write and combine. Another coo
 
 I've written a small sample app here that takes the basic UI elements of a movie app I wrote in another [repo](https://github.com/jennparker/movie-monster), to see how hard it would be to make a similar layout using Jetpack Compose. Spoiler alert: it was SO MUCH EASIER.  
 
-After building this sample app, here are a few things that struck me as awesome changes that will come with using Jetpack Compose:
-
+After building this sample app, here are a few things that struck me as awesome improvements that will come with using Jetpack Compose:
+<ul>
     <li>The preview annotation makes iterating on UI super fast</li>
-    <li>The learning curve is SO LOW</li>
+    <li>The learning curve is LOW - super intuitive</li>
     <li>Way less time to build a screen's UI</li>
     <li>Easy to make custom and reusable elements</li>
     <li>The amount of code needed is incredibly small!</li>
-    <li>Leave your XML at the door</li>
+    <li>Simple to recompose a compsable on state change</li>
+    <li>Leave your XML at the door!</li>
 </ul>
 
 Sadly, Jetpack Compose is still pre-alpha, so it is a quite a ways off from stable release, but it is coming and it will change how Android UI is built. In the mean time, here are links to the relevant talks from KotlinConf:
