@@ -36,7 +36,7 @@ fun ComposeDescription() {
     HeightSpacer(height = 24.dp)
     Text(
         text = "This sample app is designed to show some of the cool features in the forthcoming Jetpack " +
-                "Compose. Use the bottom navigation buttons to explore.",
+                "Compose. Use the app drawer to explore.",
         modifier = Spacing(24.dp),
         style = ((+MaterialTheme.typography()).h6).withOpacity(0.75f)
     )
